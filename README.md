@@ -15,11 +15,11 @@ Espero que este material sea de interes, y sea un aporte a tu formación profesi
 
 - SciPy Python [(Documentación SciPy)][scipy]
 - NetworkX Python [(Documentación NetworkX)][networkX]
-- Nashpy Python [(Documentación NetworkX)][networkX]
+- Nashpy Python [(Documentación Nashpy)][nashpy]
 - Visual Studio Code [(Editor de Texto)][vscode]
 
 [scipy]: https://docs.scipy.org/doc/scipy/
 [networkX]: https://networkx.org/documentation/stable/
-[networkX]: https://nashpy.readthedocs.io/en/stable/
+[nashpy]: https://nashpy.readthedocs.io/en/stable/
 [vscode]: https://code.visualstudio.com/download
 
