@@ -10,11 +10,11 @@ M_Rest = [[0.5, 0.8], [1, 1]] #Cada fila es una restricción, y cada columna una
 M_Coef = [500, 700]
 
 # Defininiendo los Límites para x e y 
-x_bounds = (0, None) # Las manzanas rojas no pueden ser negativas y no hay límite superior
-y_bounds = (0, None) # Las manzanas verdes no pueden ser negativas y no hay límite superior
+limiteX = (0, None) # Las manzanas rojas no pueden ser negativas y no hay límite superior
+limiteY = (0, None) # Las manzanas verdes no pueden ser negativas y no hay límite superior
 
 # Resolviendo el problema de programación lineal (A_ub: es la matriz de coeficientes para las restricciones, b_ub es la matriz de coeficientes para las desigualdades)
-result = linprog(Coef_Obj, A_ub=M_Rest, b_ub=M_Coef, bounds=[x_bounds, y_bounds], method='highs') #highs es por Solver HiGHS
+result = linprog(Coef_Obj, A_ub=M_Rest, b_ub=M_Coef, bounds=[limiteX, limiteY], method='highs') #highs es por Solver HiGHS
 
 # Solución
 manzanas_verdes = result.x[0] #result.x[0] es la solución para la variable 0 (manzanas verdes)
