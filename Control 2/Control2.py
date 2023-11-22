@@ -1,3 +1,4 @@
+#EJERCICIO 1. CONTROL 2 (PROBLEMA DE MÁXIMIZACIÓN)
 from scipy.optimize import linprog
 
 # Vector de coeficientes de la función objetivo 
